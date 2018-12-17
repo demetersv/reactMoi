@@ -8,10 +8,6 @@ class ProductRow extends React.Component {
     destroy() {
         this.props.onDestroy(this.props.product.id);
     }
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
     render() {
         var name = this.props.product.stocked ?
             this.props.product.name :
